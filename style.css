@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    background-color: #1F2937;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.left{
+    
+}
+
+.right{
+    display: flex;
+    gap: 12px
+}
+/*.title{
+    display:flex;   
+}*/
