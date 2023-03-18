@@ -8,6 +8,7 @@ body{
     margin: 0px;
 }
 
+/*This is the start of the Hero Section CSS */
 .hero, .footer{
     background-color: #1F2937;
     color:white;
@@ -18,13 +19,13 @@ body{
 .header{
     display: flex;
     justify-content: space-between; 
-    padding: 0px 150px
+    padding: 0px 200px
 }
 
 .title{
     display: flex;
     justify-content: space-around;
-    margin: 0px 150px;
+    margin: 0px 200px;
     height: 300px;
     gap: 50px;
 }
@@ -38,6 +39,7 @@ body{
 .left-header{
     font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 .right-header{
@@ -53,7 +55,7 @@ body{
 
 .secondary{
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
 
 .right-title{
@@ -81,9 +83,9 @@ button{
     color: white;
     background-color: #3882F6;
 }
+/*This is where the Hero section of the CSS ends*/
 
-/*This is were the Hero section of the css ends*/
-
+/*This is the start of the Information Section CSS */
 .information{
     display: flex;
     flex-direction: column;
@@ -124,16 +126,77 @@ button{
     font-size: 18px;
     text-align: center;
 }
+/*This is where the Information section of the CSS ends*/
+
+/*This is the start of the Quote section*/
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.qbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 730px;
+    flex: 1 1 0
+}
+
+.qbox > p{
+    margin: 0px;
+}
+
+#statement{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#qauthor{
+    align-self: flex-end;
+}
 
 
+/*This is where the Quote section of the CSS ends*/
 
+/*This is the start of the Action section*/
+.action{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.blue-block{
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
 
+.blue{
+    margin: 0px;
+}
 
+.blue-block > button{
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+/*This is where the Action section of the CSS ends*/
 
-
-/*This is were the Hero section of the css ends*/
+/*This is the start of the Footer section*/
 .footer{
     justify-content: center;   
     align-items: center;
 }
+/*This is were the Footer section of the css ends*/
